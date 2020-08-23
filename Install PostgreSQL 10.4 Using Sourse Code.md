@@ -21,7 +21,7 @@
 <p><strong>5.</strong> Now install postgres using</p>
 <pre><code> # ./configure.
 </code></pre>
-<h2 id="sample-output">Sample Output</h2>
+<h3 id="sample-output">Sample Output</h3>
 <pre><code>checking whether we are using the GNU C compiler... yes
 checking whether gcc accepts -g... yes
 checking for gcc option to accept ISO C89... none needed
@@ -37,7 +37,7 @@ checking whether gcc supports -fexcess-precision=standard... no
 <p><strong>6.</strong>  After configuring, next we will start to build postgreSQL using following  <strong>make command</strong>.</p>
 <pre><code># make
 </code></pre>
-<h2 id="sample-output-1">Sample Output</h2>
+<h3 id="sample-output-1">Sample Output</h3>
 <pre><code>make[2]: Entering directory '/root/postgresql-10.4/src/test/perl'
 make[2]: Nothing to be done for 'all'.
 make[2]: Leaving directory '/root/postgresql-10.4/src/test/perl'
@@ -51,7 +51,7 @@ All of PostgreSQL successfully made. Ready to install.
 <p><strong>7.</strong> After build process finishes, now install postgresql using following command.</p>
 <pre><code># make install
 </code></pre>
-<h2 id="sample-output-2">Sample Output</h2>
+<h3 id="sample-output-2">Sample Output</h3>
 <pre><code>make[1]: Leaving directory '/root/postgresql-10.4/src'
 make -C config install
 make[1]: Entering directory '/root/postgresql-10.4/config'
