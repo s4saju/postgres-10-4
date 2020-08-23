@@ -97,8 +97,8 @@ OOMScoreAdjust=-1000
 Environment=PG_OOM_ADJUST_FILE=/proc/self/oom_score_adj
 Environment=PG_OOM_ADJUST_VALUE=0
 
-# Maximum number of seconds pg_ctl will wait for postgres to start.  Note that
-# PGSTARTTIMEOUT should be less than TimeoutSec value.
+#Maximum number of seconds pg_ctl will wait for postgres to start.  Note that
+#PGSTARTTIMEOUT should be less than TimeoutSec value.
 
 Environment=PGSTARTTIMEOUT=270
 Environment=PGDATA=/usr/local/pgsql/data
