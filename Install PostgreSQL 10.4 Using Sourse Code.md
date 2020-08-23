@@ -91,7 +91,7 @@ Type=forking
 User=postgres
 Group=postgres
 
-# Disable OOM kill on the postmaster
+#Disable OOM kill on the postmaster
 OOMScoreAdjust=-1000
 
 Environment=PG_OOM_ADJUST_FILE=/proc/self/oom_score_adj
