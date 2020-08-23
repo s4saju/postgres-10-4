@@ -3,7 +3,7 @@
 
 ---
 
-<h3 id="install-postgresql-10.4-using-source-code">Install PostgreSQL 10.4 Using Source Code</h3>
+<h3 id="install-postgresql-10.4-using-source-code-in-ubuntu-linux-mint-or-centos-7">Install PostgreSQL 10.4 Using Source Code in Ubuntu, Linux Mint or Centos 7</h3>
 <p>Major advantage of using source code installation is it can be highly customized during installation.</p>
 <p><strong>1.</strong>  First install required prerequisites such as  <strong>gcc</strong>,  <strong>readline-devel</strong>  and  <strong>zlib-devel</strong>  using package manager as shown.</p>
 <pre><code># yum install gcc zlib-devel readline-devel     [On RHEL/CentOS]
